@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "coolmod",
+  "version": "${version}",
+
+  "name": "My Cool Mod",
+  "description": "This is a cool mod that does stuff!",
+  "authors": [
+    "TheAverageAvocado"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "/assets/coolmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.my.cool.mod.MyCoolMod"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

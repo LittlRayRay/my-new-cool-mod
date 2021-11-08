@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SSS",
+        "SSS"
+    ],
+    "key": {
+        "S":{
+            "item": "sugar_cane"
+        }
+    },
+    "result": {
+        "item": "coolmod:fabric_item",
+        "count": 2
+    }
+}
